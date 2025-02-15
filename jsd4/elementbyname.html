@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <script>
+        function totalcount()
+        {
+            var count=document.getElementsByName("gender");
+            alert("total count gender in the form is="+count.length)
+        }
+    </script>
+</head>
+<body>
+    <form>
+        male:<input type="radio" name="gender" value="male"/><br>
+        Female:<input type="radio" name="gener" value="Female"/><br>
+        <input type="button" onclick="totalcount()" value="submit"/>
+</form>
+</body>
+</html>
